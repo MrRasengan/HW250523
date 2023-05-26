@@ -19,7 +19,7 @@ void GetNumArr(int[] array, int userNumMin, int userNumMax)
     int sum = 0;
     foreach (int el in array)
     {
-        if (el >= userNumMin && el <= userNumMax && el < 0 )
+        if (el < 0 )
         {
             sum += el;
         }
